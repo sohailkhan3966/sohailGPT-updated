@@ -2,6 +2,6 @@ Flask
 gunicorn
 firebase-admin
 Flask-CORS
-python-dotenv
-requests
-uuid 
+python-dotenv  # Good for managing local .env files, Render uses its own env var system
+requests       # Often useful, include if you make external API calls from Flask
+uuid           # You used uuid, though it's a built-in library, no harm listing if needed by a specific version for some reason (usually not needed here) 
